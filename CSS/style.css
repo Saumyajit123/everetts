@@ -152,7 +152,7 @@ BANNER SECTION
 
 .banner-section {
   /* min-height: 590px; */
-  max-width: 1400px;
+  max-width: 1580px;
   background: url("../Assets/banner.png") no-repeat center/cover
     rgba(179, 175, 176, 100%);
   background-blend-mode: darken;
