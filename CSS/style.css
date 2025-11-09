@@ -238,8 +238,8 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1470px;
-  margin: 50px;
+  /* max-width: 1470px; */
+  padding: 30px 0;
 }
 
 .about-team {
@@ -247,7 +247,7 @@ span {
 }
 
 .team-img {
-  width: 568px;
+  max-width: 568px;
 }
 
 .team-img > img {
@@ -260,13 +260,13 @@ span {
   margin: 15px 0;
 }
 
-.team-hdr > p {
+.team-hdr > h1 {
   font-family: "Inter";
   font-size: 50px;
   color: var(--secondary-color);
 }
 
-.team-hdr > p > span {
+.team-hdr > h1 > span {
   font-style: italic;
   font-weight: bold;
   color: var(--primary-color);
@@ -278,14 +278,15 @@ span {
 }
 
 .read-btn {
-  margin: 15px 0;
+  /* margin: 15px auto; */
+  text-align: center;
 }
 
 .readmore-btn {
   padding: 18.5px 36px;
   background-color: var(--secondary-color);
   color: white;
-  width: 169px;
+  max-width: 169px;
   font-family: "Poppins";
   font-size: 18px;
   border-radius: 7px;
@@ -335,7 +336,7 @@ span {
 
 .card > .card-img > img {
   width: 100%;
-  height: 285px;
+  min-height: 285px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -450,29 +451,28 @@ FOOTER SECTION
 
   /* About Team section */
 
-  .col-6{
+  .col-6 {
     width: 100%;
   }
 
   .team-img {
-    width: 480px;
     margin: 20px auto;
   }
 
-  .team-hdr{
+  .team-hdr {
     text-align: center;
     margin-bottom: 15px;
   }
 
-  .team-hdr > p{
+  .team-hdr > h1 {
     font-size: 45px;
   }
 
-  .details{
+  .details {
     font-size: 16px;
   }
 
-  .read-btn{
+  .read-btn {
     margin-left: 325px;
   }
 
@@ -492,9 +492,15 @@ FOOTER SECTION
   }
 
   /* About Team Section */
+  
+  /* .team-img > img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+  } */
 
-  .read-btn{
-    margin-left: 227px;
+  .read-btn {
+    margin: 0 auto !important
   }
 }
 
@@ -511,14 +517,7 @@ FOOTER SECTION
 
   /* About Team section */
 
-  .team-img{
-    width: 400px;
+  .team-img {
+    max-width: 400px;
   }
-
-  .read-btn{
-    margin-left: 138px;
-  }
-
 }
-
-
