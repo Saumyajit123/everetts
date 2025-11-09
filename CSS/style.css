@@ -278,8 +278,8 @@ span {
 }
 
 .read-btn {
-  /* margin: 15px auto; */
-  text-align: center;
+  margin: 15px auto;
+  /* text-align: center; */
 }
 
 .readmore-btn {
